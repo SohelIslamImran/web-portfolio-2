@@ -79,3 +79,43 @@ footer p {
   text-align: center;
   font-size: 12px;
 }
+
+.container {
+  background: #477be0;
+  height: 800px;
+  display: flex;
+  /* align-items: baseline; */
+}
+
+.child1 {
+  background: red;
+  padding: 2rem;
+  margin: 20px;
+  border: 1px solid #000;
+  height: 180px;
+  /* align-self: center; */
+}
+
+.child2 {
+  background: green;
+  padding: 2rem;
+  margin: 20px;
+  border: 1px solid #000;
+  height: 100px;
+}
+
+.child3 {
+  background: yellow;
+  padding: 2rem;
+  margin: 20px;
+  border: 1px solid #000;
+  height: 100px;
+}
+
+.child4 {
+  background: blue;
+  padding: 2rem;
+  margin: 20px;
+  border: 1px solid #000;
+  height: 100px;
+}
